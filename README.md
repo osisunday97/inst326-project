@@ -10,12 +10,16 @@ and place of death, and weather or not police was at the place of death.
  ** load_data.py: I created a database file name gun_deaths and connected to it using a cursor. I then created a table that reflects the columns in the csv file. Then, I inserted the data from the csv file into the table.
 
  ** query_data.py: I queried the populate database to anakyze and form conclusion based on the data. I wrote and excecuted four different kinds a queries.
+
     * Query 1:  From the 100,799 gun deaths, police were involved in 1,402 of them. 
                 However, they were not invloved in the remaining 99,396 gun deaths.
+
     * Query 2:  The highest intent/cause of death was suidice with ~63,000 deaths. 
                 The second highest was homicide with ~35,000 deaths.
+
     * Query 3:  Most suicides took place between the months of April and August.
                 While most homicides took place in June, July, August and Decemember.
+                
     * Query 4:  For suicide victims, those who had a college education committed suicide more than those with less                than a HS education. 
                 However, for homicide victims, about 11,000 people with less than a HS education were killed compared to about 1,500 victims with college education.
 
